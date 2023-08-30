@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+tr td#completed {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+#task-info:hover {
+    cursor: pointer;
+}
+
+#task-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
